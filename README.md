@@ -111,58 +111,62 @@ Spring Boot와 BootStrap을 활용한 ERP 중 편의점 발주 시스템 개발.
 # 기능 소개
 ## :page_with_curl: Main Page
 ![main](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/ef996cc4-0b47-4a33-ba46-09a92bbbde54)
-:point_right: Main Page. 간단히 날짜를 볼 수 있는 달력을 FullCalendar 라이브러리를 이용해서 만들었음
+:point_right: Main Page. 간단히 날짜를 볼 수 있는 달력을 FullCalendar 라이브러리를 이용해서 만듦
 
-:point_right: 현재 지점 수 & 현재 협력사 수는 List의 .size()를 사용함
+:point_right: 현재 지점 수 & 현재 협력사 수는 List의 .size()를 사용
 
 :point_right: 밑에 리스트는 최근에 등록한 5개의 지점 & 협력사
 
-:point_right: 지점 등록을 누르면 지점을 등록할 수 있는 페이지로 이동
 ![지점 등록](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/e87d89ae-c361-4314-a6c3-cdb4cd4ca5c9)
+:point_right: 지점 등록을 누르면 지점을 등록할 수 있는 페이지로 이동
 
 ***
 
 ## :page_with_curl: 지점 관리
 ![지점 목록](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/11a4be80-9e8c-41f8-b790-534c0d2c5082)
-:point_right: 지점 목록을 보여주는 페이지. 
+:point_right: 지점 목록을 보여주는 페이지
 
 ***
 
 ## 협력사 관리
 ### :page_with_curl: 협력사 목록 
 ![협력사 목록](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/34c86c38-82f1-490a-be3e-0911060051c2)
-:point_right: 협력업체들의 목록을 볼 수 있는 페이지.
+:point_right: 협력업체들의 목록을 볼 수 있는 페이지
 
 ### :page_with_curl: 협력사 등록
 ![협력사 등록](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/840b3239-49fd-4fdc-a21c-cb989e93c624)
-:point_right: 등록하기 버튼을 누르면 직접 협력업체를 등록할 수 있는 페이지로 이동함
+:point_right: 등록하기 버튼을 누르면 직접 협력업체를 등록할 수 있는 페이지로 이동
 
 ***
 
 ## 계약 관리
 ### :page_with_curl: 계약 목록
 ![계약서 목록](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/d7ae70a2-938f-4941-a030-563f9d17e6ee)
-:point_right: 협력업체를 등록하면 이제 그에 맞는 계약서를 관리해야 함. 
+:point_right: 협력업체를 등록하면 이제 그에 맞는 계약서를 관리해야 함
 
 ### :page_with_curl: 계약 등록
 ![계약서 등록](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/954ea75e-1908-4a00-87ad-69c1ab6b9c04)
 :point_right: 계약서 등록을 눌러서 계약서를 업로드 하고 등록할 수 있음
-:point_right: 계약 업체 option을 클릭하면 현재 저장되어 있는 협력업체 table에서 목록을 불러오게 됨.
-:point_right: 없다면 옆의 버튼으로 추가할 수 있는 페이지로 이동함
-:point_right: 품목의 경우도 동일함.
+
+:point_right: 계약 업체 option을 클릭하면 현재 저장되어 있는 협력업체 table에서 목록을 불러옴
+
+:point_right: 없다면 옆의 버튼으로 추가할 수 있는 페이지로 이동
+
+:point_right: 품목의 경우도 동일
 
 ***
 
 ## 품목 관리
 ### :page_with_curl: 품목 목록
 ![품목 목록](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/0104ff4e-f7b3-4ad1-948d-f83dbdcdd007)
-:point_right: 품목 목록을 보여주는 페이지.
+:point_right: 품목 목록을 보여주는 페이지
 
 ### :page_with_curl: 품목 등록
 ![품목 등록](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/9cfccfb1-4159-4c03-a2f5-9e40e975d370)
-:point_right: 품목을 등록하는 페이지.
+:point_right: 품목을 등록하는 페이지
 
 ![대분류 option](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/2061c53a-480e-422e-8ae9-019c79c17e76)
+
 ![소분류 option](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/b3f4472b-c715-44ab-914b-f0952702dd68)
 :point_right: 대분류, 소분류 option에서 직접 선택을 누르면 카테고리들을 추가하고, 아니면 원래 등록되어 있는 카테고리로 품목 등록을 진행함
 
@@ -226,6 +230,7 @@ Spring Boot와 BootStrap을 활용한 ERP 중 편의점 발주 시스템 개발.
 ### 📃 조달 계획 등록
 ![계획 등록](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/593b152e-0105-442a-8aef-5c1f5efb03d7)
 :point_right: 조달 계획을 등록할 수 있는 페이지. 품목 option을 누르면 현재 등록된 품목의 목록을 선택할 수 있음
+
 ![품목 목록 option](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/144d98ed-e22f-46ca-b6dc-c2c2d1e20301)
 :point_right: 품목을 선택하고 '추가'를 누르면 table에 선택한 품목에 맞는 정보가 담기게 됨. 삭제쪽에 있는 x를 누르면 삭제되게 구현
 
@@ -253,6 +258,7 @@ Spring Boot와 BootStrap을 활용한 ERP 중 편의점 발주 시스템 개발.
 
 ![요청 등록 자동](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/d1a63869-a2a4-407c-b45e-3da5162553d4)
 :point_right: 해당 품목에 해당하는 품목 코드, 브랜드가 자동으로 입력되게 됨. 
+
 :point_right: 등록을 하게 되면 요청 목록에도 추가되고 협력사의 입고 요청 목록에도 동시에 추가되게 구현
 
 ### 📃 요청 목록
@@ -272,20 +278,30 @@ Spring Boot와 BootStrap을 활용한 ERP 중 편의점 발주 시스템 개발.
 ### 📃 입고 요청 목록
 ![입고 요청 목록 리스트](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/501dbef6-2414-4995-9d38-9912bd18e05e)
 :point_right: 입고 요청이 등록되면 처음 상태는 미완으로 뜨고 출하 버튼이 보이게 됨. (완료의 경우 보이지 않음)
+
 :point_right: 출하 버튼을 누르면 해당 요청의 정보가 입고 검수 페이지로 보내지게 됨.
 
 ### 📃 입고 검수 (본사에서 처리)
 ![입고 검수 목록](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/36838149-cba6-4000-a7fd-b0539cc66d6c)
 :point_right: 입고 검수 페이지. 검수 완료 & 반품처리 버튼이 있음
+
 :point_right: 검수 완료는 현재 들어온 모든 제품이 정상품이므로 바로 출하시작. 이때 출하 목록으로 해당 정보가 보내짐 + 재고 리스트에 재고 값 증가 처리.
 
 ![검수 - 반품 처리](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/0aca91eb-6f63-4d4d-8745-5e56b2281ad3)
 :point_right: 반품 처리 클릭 시 Modal로 얼마나 정상품(양품)인지 입력하게 하고, 해당 숫자만큼 출하함
+
 :point_right: Modal로 입력한 수를 뺀 나머지를 다시 입고 요청 목록으로 보내서 다시 입고 받을 수 있도록 함
 
 ### 📃 출하
 ![출하목록](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/0cec94df-abfa-432a-aca1-7a8ec3543ed1)
 :point_right: 출하된 물품을 보여주는 리스트. 품목코드, 개수, 날짜, 발주 코드 등을 볼 수 있음. 또한 명세서도 볼 수 있음
+
+*** 
+
+## 검색기능
+![검색 화면](https://github.com/JJJAAASSSOONNOOHH/SpringBoot_erp_project/assets/93170784/ca44e21c-13f9-4b2a-82d5-fb7f4c01caf5)
+👉 검색하려는 type, keyword를 치게 만들어서 해당 정보만 나오게 함
+👉 type, keyword가 존재하면 CRUD 수행 시 해당 정보가 포함된 페이지가 나오도록 구현
 
 ***
 
