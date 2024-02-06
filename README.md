@@ -48,10 +48,10 @@ Spring Boot와 BootStrap을 활용한 ERP 중 편의점 발주 시스템 개발.
 
 <table>
 	<tr align=center>
-		<td>이한규</td>
-		<td>류경현</td>
-		<td>노솔진</td>
-		<td>조동효</td>
+		<th>이한규</th>
+		<th>류경현</th>
+		<th>노솔진</th>
+		<th>조동효</th>
 	</tr>
 	<tr align=center>
 		<td>조장</td>
